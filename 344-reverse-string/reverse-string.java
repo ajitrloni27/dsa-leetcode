@@ -5,8 +5,6 @@ class Solution {
             temp= s[i];                         // assign 1st character
             s[i]= s[s.length-1 -i];             // swap 
             s[s.length-1-i]= temp;              // swap from last to first 
-
-        }
-        
+        }    
     }
 }
